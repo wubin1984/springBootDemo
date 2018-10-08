@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Hello world!
+ * wubin
  */
 @SpringBootApplication(scanBasePackages = "com.huipu")
 public class Example {
