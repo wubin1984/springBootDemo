@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Hello world!
  */
-
 @SpringBootApplication(scanBasePackages = "com.huipu")
 public class Example {
    
