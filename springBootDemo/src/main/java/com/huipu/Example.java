@@ -11,15 +11,14 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @SpringBootApplication(scanBasePackages = "com.huipu")
 public class Example {
-   
-     @RequestMapping("/h")
-     public String index() {
-       return "hello word!";
-     }
+
+    @RequestMapping("/h")
+    public String index() {
+        return "hello word!";
+    }
      
-   public static void main( String[] args )
-   {
+    public static void main( String[] args ){
        SpringApplication.run(Example.class, args);
        System.out.println( "Hello World ! App!" );
-   }
+    }
 }
